@@ -10,11 +10,7 @@ add_ip(tech_cells_generic
     VENDOR pulp_platform
     LIBRARY ip
     VERSION 0.2.13
-    )
-
-# ip_include_directories(${IP} SYSTEMVERILOG
-#     ${PROJECT_SOURCE_DIR}/include
-# )
+)
 
 ip_sources(${IP} SYSTEMVERILOG_SIM
     # ${PROJECT_SOURCE_DIR}/src/deprecated/cluster_clk_cells.sv
