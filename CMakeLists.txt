@@ -22,7 +22,7 @@ ip_sources(${IP} SYSTEMVERILOG_SIM
     # ${PROJECT_SOURCE_DIR}/src/deprecated/pulp_clk_cells.sv
     # ${PROJECT_SOURCE_DIR}/src/deprecated/pulp_pwr_cells.sv
     ${PROJECT_SOURCE_DIR}/src/rtl/tc_clk.sv
-    ${PROJECT_SOURCE_DIR}/src/rtl/tc_sram.sv
+    # ${PROJECT_SOURCE_DIR}/src/rtl/tc_sram.sv
     ${PROJECT_SOURCE_DIR}/src/tc_pwr.sv
 )
 
@@ -33,7 +33,7 @@ ip_sources(${IP} SYSTEMVERILOG_FPGA
     # {PROJECT_SOURCE_DIR}/src/deprecated/pulp_pwr_cells.sv
     # {PROJECT_SOURCE_DIR}/src/deprecated/pulp_buffer.sv
     ${PROJECT_SOURCE_DIR}/src/fpga/tc_clk_xilinx.sv
-    ${PROJECT_SOURCE_DIR}/src/fpga/tc_sram_xilinx.sv
+    # ${PROJECT_SOURCE_DIR}/src/fpga/tc_sram_xilinx.sv
     ${PROJECT_SOURCE_DIR}/src/tc_pwr.sv
 )
 
